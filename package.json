@@ -1,17 +1,19 @@
 {
-  "name": "prac_10_cloudant",
+  "name": "prac_11_cloudant",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@cloudant/cloudant": "^4.5.1",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "express": "^4.19.2"
-  }
+    "express": "^4.21.2",
+    "prac_11_cloudant": "file:"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
